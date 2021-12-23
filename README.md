@@ -9,3 +9,7 @@ What options should the user have in running the program? What should the interf
  </p>
  
  The python script made available will direct you through the main steps to achieve and complete this task.
+ 
+<p align="center">
+ <img width="500" alt="Screen Shot 2021-12-22 at 1 20 57 PM" src="https://user-images.githubusercontent.com/70657426/147203496-0efcb7c1-11f7-46e0-84e2-6fd699ada770.jpg">
+ </p>
