@@ -25,20 +25,20 @@ chromeOptions.add_experimental_option("prefs", {'download.default_directory': in
 driver = webdriver.Chrome(ChromeDriverManager().install(), chrome_options= chromeOptions )
 
 # Get the driver to the desired HTML markup and check by running an assertion on the text in the title of the page
-driver.get("https://imperial.insendi.com/auth/saml/authenticate/imp?returnPath=/")
+driver.get("") #copy paste the website you want to automatically enter to
 
 
 # Find the username box and enter the user's obtained username
-username = driver.find_element_by_id("username")
+username = driver.find_element_by_id("username") #Finds the element where you need to input your username and automate it
 username.clear()
-#input_username = str(input('Enter your Username: '))
-username.send_keys('jz3321')
+#input_username = str(input('Enter your Username: ')) #You can either input the username in the commamnd line or write it beforehand in the line below
+username.send_keys('')
 
 # Find the password box and enter the user's obtained password
 password = driver.find_element_by_id("password")
 password.clear()
 #input_password = str(input('Enter your Password: '))
-password.send_keys('Yaradoumet33!')
+password.send_keys('')
 
 # Submit the credentials by clicking the submit button
 driver.find_element_by_class_name('btn').click()
